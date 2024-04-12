@@ -1,0 +1,13 @@
+.invalid-feedback {
+    display: none;
+    color: red;
+    font-size: 14px;
+}
+
+.form-control.is-invalid {
+    border-color: red;
+}
+
+.modal-dialog {
+    max-width: 400px;
+}
