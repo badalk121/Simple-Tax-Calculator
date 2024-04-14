@@ -11,3 +11,20 @@
 .modal-dialog {
     max-width: 400px;
 }
+
+.error-icon {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.error-icon i {
+    color: red;
+    visibility: hidden;
+}
+
+.form-group:hover .error-icon i {
+    visibility: visible;
+}
